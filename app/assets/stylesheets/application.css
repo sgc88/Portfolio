@@ -22,6 +22,11 @@
   background-image: url(/dalgali.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height:300px;
+  width:100%;
+}
+#home{
+  margin-top: 0;
 }
 .container{
   color:red;
