@@ -13,11 +13,11 @@
  *= require_tree .
  *= require_self
  */
-/*body{
-  background-image: url(/cizgiduvar.jpg);
+body{
+  background-image: url(/graywood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+}
 .jumbotron{
   background-image: url(/dalgali.jpg);
   background-repeat: no-repeat;
@@ -25,11 +25,17 @@
   height:300px;
   width:100%;
 }
+header{
+  width: 100%;
+}
 #home{
   margin-top: 0;
 }
 .container{
-  color:red;
+  /*color:red;*/
+  display: inline-block;
+  width: 100%;
+
 }
 .nav{
   float:right;
@@ -96,4 +102,8 @@
   }
   .featurette-divider{
     color:black;
+  }
+  .row{
+    width: 100%;
+    display: inline-block;
   }
