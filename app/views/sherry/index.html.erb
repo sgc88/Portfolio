@@ -14,45 +14,37 @@
     <%= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js' %>
   </head>
   <body>
-
   <main role="main" class="inner cover">
-          <!-- <h4 class="cover-heading headwords">Never forget, you spin the fly wheel. It's all on you.</h4> -->
           <div class="image-cropper">
             <img src="sherry.jpg" alt="sherry" class="rounded" >
           </div>
+          <p id="kafalafi" >I first discovered my passion for coding when..</p>
+          <p>
+            <a id="devami" class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Read more..
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              I first discovered my passion for coding when I always try to understand how our website works, what type of framework/database is been used in the back of our website at work.After having a successful 11 years in banking, I realized that I was ready to add a coding skill to my career path and am so happy with my decision.
+              I'm from Turkey, I was born and raised in Istanbul. After working at the bank for several years in Turkey I moved the US in 2011. After working at Citibank for over 2 successfull years I discovered my passion about coding and I studied full stack full development at General Assembly for 12 weeks,  self studied  another 8 weeks before the cohort. I ask questions, a lot of questions. I debug.. everything. I am focused problem solver, love to find out what is causing the issue and how it can be solved
+            </div>
+        </div>
+
   </main>
-    <div class="container marketing">
-        <div class="row">
-          <div class="col-lg-4 bar">
-            <h2>About me</h2>
-            <p>I first discovered my passion for coding when..</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Read more.. &raquo;</a></p>
-          </div>
-        </div>
-
-          <div class="col-lg-4 bar">
-            <h2>Contact</h2>
-            <p>Let's talk</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!--  SON  UPDATE BURDAN BASLIYOR-->
-      <h2>Portfolio</h2>
-
+  <br>
+  <br>
+      <hr class="featurette-divider">
+      <h1 id="portfolio">~ Portfolio ~</h1>
         <hr class="featurette-divider">
-
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">FunToGo <span class="text-muted">  Checkmark!</span></h2>
+            <h2 class="featurette-heading">FunToGo <span class="text-muted">  Yes, I'm going!</span></h2>
             <p class="lead">FunToGo is a planning and organizing web based application for your events needs. <p>
               <a href="https://hidden-retreat-76638.herokuapp.com/">Visit FunToGo today</a>
           </div>
-          <div class="col-md-5">
-            <a href="https://hidden-retreat-76638.herokuapp.com/"><img class="featurette-image img-fluid mx-auto" src="/events.png" alt="Generic placeholder image"></a>
+          <div class="col-md-5 evenstimg">
+            <a href="https://hidden-retreat-76638.herokuapp.com/"><img class="featurette-image img-fluid mx-auto" src="/events.png" alt="Generic placeholder image" id="eventimg"></a>
           </div>
         </div>
 
@@ -60,7 +52,7 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">BASIL <span class="text-muted">What do you have in your refregirator?</span></h2>
+            <h2 class="featurette-heading">BASIL <span class="text-muted">What do you have in your refrigerator?</span></h2>
             <p class="lead">Basil solves the problem of finding recipes based off of the ingredients that you have available at home. Through Basil you input the ingredients you have at home and we will return a list of recipes that you could make with those ingredients. For each recipe that we return, we highlight the used ingredients and any additional ingredients that you would need to make the recipe.</p>
             <a href="https://basly.herokuapp.com/">Visit Basil today</a>
           </div>
@@ -92,12 +84,16 @@
         <a href="https://www.linkedin.com/in/sehribancheng"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         <a href="sehribancheng@yahoo.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
         <a href="https://github.com/sgc88"><i class="fa fa-github" aria-hidden="true"></i></a>
-      </div
-    <footer class="mastfoot">
-        <div class="inner">
-          <p>Copyright@2018 Sherry Cheng</p>
+        <footer class="page-footer blue center-on-small-only">
+          <br>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright:<a href="#"> SherryCheng</a>
+            </div>
         </div>
-    </footer>
+      </footer>
+      </div
+
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
